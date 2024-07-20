@@ -131,14 +131,14 @@
 .text-and-image{
     width: 100%;
     height: 600px;
-    background-color: antiquewhite;
+    background-image: url(./image/backgroundimage.jpg);
+
     display: flex;
     justify-content: center;
 }
 .hone-text-box{
     width: 45%;
     height: 551px;
-    background-color: wheat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,7 +159,7 @@
         border-radius: 25px 0px 10px 0px;
     }
     #contact{
-        background-color: rgb(223, 64, 192);
+        background-color: rgb(216, 172, 51);
         width: 150px;
         height: 41px;
         border: none;
@@ -173,18 +173,103 @@
 }
 .home-img-box{
 width: 55%;
-height: 700px;
-background-color: red;
+height: 800px;
 }
 .main-img-fst{
     width: 100%;
-    height: 700px;
-    background-color: #3d3d3d;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
     
 }
 .main-img-fst>img{
     
-    height: 700px;
+    height: 790px;
     object-fit: cover;
+    border-radius: 120px 0px 120px 0px;
+    position: relative;
+
+}
+
+
+.chicken-biryani{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 233px;
+    left: 1236px;
+    border-radius: 100%;
+
+}
+.chicken-biryani>img{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    
+}
+.biryani{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 622px;
+    left: 625px;
+    border-radius: 100%;
+}
+.biryani>img{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+.our-gallery-box{
+    width: 161px;
+    height: 166px;
+    background-color: rgb(39, 39, 125);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 650px;
+    left: 1280px;
+    border-radius: 65px 0px;
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
 }
 /* <!-- HOME INTRODUCTION BOX end --> */
+
+/* <!-- MENU SECTION BOX START --> */
+.menu-img-text-section{
+    width: 100%;
+    height: 800px;
+    background-image: url(./image/Menu\ Backgroundcut.png);
+    margin-top: 160px;
+    display: flex;
+}
+.menu-img-section{
+    width: 55%;
+    height: 500px;
+    background-image: url(./image/biriyani.png);
+    background-repeat:no-repeat ;
+    background-position: center;
+}
+.menu-text-section{
+    width: 55%;
+    height: 640px;
+}
+.menu-text-section,h1{
+    margin-top: 60px;
+}
+.menu-text-section,p{
+    margin-top: 5px;
+    font-size: 19px;
+    font-weight: 500;
+}
+.menu-button{
+    width: 121px;
+    height: 50px;
+    background-color: blueviolet;
+    border: none;
+}
+
+/* <!-- MENU SECTION BOX END --> */
