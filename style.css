@@ -141,7 +141,7 @@
     justify-content: center;
     align-items: center;
     .text-home{
-        /* display: flex; */
+        
         text-align: center;
     }
     #about{
@@ -254,6 +254,7 @@ height: 800px;
     width: 55%;
     height: 640px;
     margin-top: 197px;
+    color:  black;
 }
 .menu-text-section,h1{
     margin-top: 60px;   
@@ -281,6 +282,7 @@ height: 800px;
     display: flex;
     justify-content: space-between;
     margin-top: 36px;
+    color: #000000;
     
 }
 .box-image{
@@ -302,6 +304,7 @@ height: 800px;
 }
 .box-image:hover{
     background-color: #c39a8b;
+    color: white;
     border-radius: 150px 0px 150px 0px;
 }
 
@@ -310,19 +313,25 @@ height: 800px;
 /* <!-- TRADITION AND FAMILY RECIPES SECTION START --> */
 .tradition-text-and-image{
         width: 100%;
-        height: 600px;
+        height: 700px;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: rgb(59, 87, 87);
+        /* background-color: rgb(59, 87, 87); */
+        position: relative;
+        color: #000000;
 }
 .tradition-hone-text-box{
-    width: 50%;
+    width: 452px;
     height: 551px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    /* background-color: aqua; */
+    position: absolute;
+    left: 126px;
+    top: 0px;
+
     .text-home{
         text-align: center;
     }
@@ -353,8 +362,12 @@ height: 800px;
 }
 
 .tradition-home-img-box{
-width: 50%;
-height: 800px;
+    width: 620px;
+    height: 800px;
+    position: absolute;
+    left: 671px;
+    top: -100px;
+
 }
 .tradition-main-img-fst{
 width: 100%;
@@ -362,6 +375,7 @@ height: 800px;
 display: flex;
 justify-content: center;
 margin-top: 30px;
+
 
 }
 .tradition-main-img-fst>img{
@@ -379,14 +393,14 @@ position: relative;
 width: 250px;
 height: 250px;
 position: absolute;
-top: 100px;
+top: 170px;
 right: 0px;
 border-radius: 100%;
 
 }
 .tradition-family>img{
-width: 350px;
-height: 350px;
+width: 300px;
+height: 300px;
 border-radius: 0px 100px 0px 100px;
 
 }
@@ -403,3 +417,89 @@ border-radius: 100px 0px 100px 0px;
 }
 
 /* <!-- TRADITION AND FAMILY RECIPES SECTION END --> */
+
+
+/* <!-- SLIDER SHOW CONTACT START --> */
+.slideshow-container {
+    position: relative;
+    top: 200px;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 200px;
+    border-radius: 3px 0 0 3px;
+    top: 50%;
+
+  }
+  .prev{
+    position: absolute;
+    left: 200px;
+    border-radius: 3px 0 0 3px;
+    top: 50%;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    /* background-color: rgba(0,0,0,0.8); */
+    color: rgb(0, 0, 0);
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+      text-align: center;
+      padding: 20px;
+      position: relative;
+      top: 200px;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+  
+  /* Add a blue color to the author */
+  .author {color: cornflowerblue;}
+
+/* <!-- SLIDER SHOW CONTACT END --> */
+
+/* <!-- FINAL BOX START --> */
+
+/* <!-- FINAL BOX END --> */
