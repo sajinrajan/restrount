@@ -146,7 +146,7 @@
     }
     #about{
         background-color: rgb(58, 58, 132);
-        width: 120px;
+        width: 143px;
         height: 41px;
         border: none;
         color: white;
@@ -348,7 +348,7 @@ height: 800px;
 #about:hover{
     border-radius: 25px 0px 10px 0px;
 }
-#contact{
+#gallery{
     background-color: rgb(216, 172, 51);
     width: 150px;
     height: 41px;
@@ -357,7 +357,7 @@ height: 800px;
     font-size: 18px;
     font-weight: 500;
 }
-#contact:hover{
+#gallery:hover{
     border-radius: 25px 0px 10px 0px;
 }
 
@@ -423,6 +423,7 @@ border-radius: 100px 0px 100px 0px;
 .slideshow-container {
     position: relative;
     top: 200px;
+ 
   }
   
   /* Slides */
@@ -430,6 +431,11 @@ border-radius: 100px 0px 100px 0px;
     display: none;
     padding: 80px;
     text-align: center;
+  }
+  .mySlides>i{
+    color: gold;
+    position: relative;
+    top: -50px;
   }
   
   /* Next & previous buttons */
@@ -501,5 +507,52 @@ border-radius: 100px 0px 100px 0px;
 /* <!-- SLIDER SHOW CONTACT END --> */
 
 /* <!-- FINAL BOX START --> */
+#lastbox{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
 
+}
+.lst-contact-box{
+width: 33.33%;
+   
+}
+.lst-contact-box>p{
+    display: flex;
+    align-items: center; 
+}
+
+
+.lst-nav-box >h3{
+    display: flex;
+    justify-content: center;
+}
+.mobil-menu-bar-last{
+    padding: 1px ;   
+    color: rgb(2, 2, 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mobil-menu-bar-last>a{
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0px 5px;
+    font-family: sans-serif;
+    color: #000000;
+    text-decoration: none;
+}
+.lst-icon-box{
+    display: flex;
+    align-items: center;
+}
+.lst-icon-box>h3>i{
+    margin: 0px 20px;
+}
 /* <!-- FINAL BOX END --> */
